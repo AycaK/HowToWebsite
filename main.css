@@ -13,6 +13,7 @@ margin: 0;
 padding: 30px;
 text-align: center;
 
+
 }
 .hide{
 	display:none;
@@ -26,7 +27,7 @@ color: white;
 header nav ul{
 padding:0;
 margin:0;
-width: 15%;
+width: 300px;
 background-color: #f1f1f1;
 position: fixed;
 height: 100%;
@@ -47,4 +48,38 @@ font-weight: bold;
 header nav ul li a:hover:not(.active) {
   background-color: #555;
   color: white;
+}
+div img{
+	position: absolute;
+	top:140px;
+}
+.allg{
+	position: absolute;
+	top:500px;
+	left:350px;
+	margin:0px;
+	padding: 15px;
+	background-color: #f1f1f1;
+	color: #555;
+	border-radius: 5px;
+}
+
+.para{
+	position: absolute;
+	top:250px;
+	left:700px;
+	margin:0px;
+	padding: 15px;
+	background-color: #f1f1f1;
+	color: #555;
+	border-radius: 5px;
+}
+#img1{
+	left:400px;
+}
+#img2{
+	left:700px;
+}
+#img3{
+	left:1000px;
 }
