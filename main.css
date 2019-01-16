@@ -1,3 +1,44 @@
 body{
-background-color: #dbbdc5;
+font-family: "Verdana", sans-serif;
+ 
+  margin: 0;
+}
+
+header h1{
+
+font: bold 50px "Verdana", sans-serif;
+background-Color: #ffb366;
+color: white;
+margin: 0;
+padding: 100;
+text-align: center;
+
+}
+.hide{
+	display:none;
+}
+
+
+
+header nav ul{
+padding:0;
+margin:0;
+witdh: 200px;
+background-color: #f1f1f1;
+list-style-type: none;
+}
+
+
+header nav ul li a{
+color:darkgrey;
+text-decoration:none;
+padding:8px 16px;
+display: block;
+font-size: 20px;
+font-weight: bold;
+}
+
+header nav ul li a:hover {
+  background-color: #555;
+  color: white;
 }
