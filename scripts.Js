@@ -6,6 +6,7 @@ var info2 = document.getElementById("info2");
 var info3 = document.getElementById("info3");
 var m =1;
 
+
 img1.addEventListener("click", hide);
 img2.addEventListener("click", hide2);
 img3.addEventListener("click", hide3);

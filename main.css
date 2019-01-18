@@ -15,6 +15,16 @@ text-align: center;
 
 
 }
+.help{
+	position:relative;
+	left:350px;
+	top:50px;
+	margin:15px 15px 15px 0px ;
+	padding: 15px;
+	background-color: #f1f1f1;
+	color: #555;
+	border-radius: 5px;
+}
 p{
 	overflow:auto;
 }
@@ -33,6 +43,7 @@ margin:0;
 width: 300px;
 background-color: #f1f1f1;
 position: fixed;
+top:0;
 height: 100%;
 overflow: auto;
 list-style-type: none;
@@ -56,16 +67,6 @@ div img{
 	position: absolute;
 	top:140px;
 }
-.allg{
-	position: absolute;
-	top:500px;
-	left:350px;
-	margin:0px;
-	padding: 15px;
-	background-color: #f1f1f1;
-	color: #555;
-	border-radius: 5px;
-}
 
 .para{
 	position: absolute;
@@ -78,6 +79,75 @@ div img{
 	color: #555;
 	border-radius: 5px;
 }
+.relativ{
+	position:relative;
+	left:350px;
+	top:0px;
+}
+button{
+	 background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+button:hover{
+	background-color: #2e6d30;
+}
+.help{
+	background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+	position:relative;
+	left:0px;
+	top:50px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+table {
+  border-collapse: collapse;
+  width: 1020px;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+div p, div h3{
+width: 1000px;
+	margin:15px 15px 15px 0px ;
+	padding: 15px;
+	background-color: #f1f1f1;
+	color: #555;
+	border-radius: 5px;
+}
+.los{
+	position:relative;
+	left:0px;
+	top:0px;		
+}
+.allg{
+	position: absolute;
+	top:500px;
+	left:350px;
+	margin:0px;
+	padding: 15px;
+	background-color: #f1f1f1;
+	color: #555;
+	border-radius: 5px;
+}
+
 #img1{
 	left:400px;
 }
